@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
 html,body {
     margin: 0;
     padding: 0;
@@ -6,4 +8,48 @@ html,body {
 body {
     background-color: #f7f7f9;
     color: #393939;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.single-word-line {
+    text-align: center;
+    display: block;    
+    font-size:5em;
+    z-index:5 ;
+    mix-blend-mode: overlay;
+    color: #181818;
+}
+
+.container {
+    border: 2px dashed #cdcdcd;
+    max-width: 430px;
+    max-height: 930px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-page {
+    position: relative;
+}
+
+#akcb-img {
+    background: url('../img/akcb.png') center center no-repeat;
+    max-width: 400px;
+    max-height: 600px;
+    background-size: contain;
+    position:absolute;
+    top: 5%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    z-index: -1;
 }
